@@ -2,13 +2,13 @@
 import java.util.ArrayList;
 public class Sheet {
     
-    ArrayList<Dice> dice;
+    ArrayList<Integer> dice;
 
     public Sheet(){
-        dice = new ArrayList<Dice>();
+        dice = new ArrayList<Integer>();
     }
 
-    public void addToSheet(Dice diceToSheet){
+    public void addToSheet(int diceToSheet){
         dice.add(diceToSheet);
     }
 
