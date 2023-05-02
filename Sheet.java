@@ -12,9 +12,13 @@ public class Sheet {
         dice.add(diceToSheet);
     }
 
+    public void removeFromSheet(int diceFromSheet){
+        dice.remove(diceFromSheet);
+    }
+
     public void printSheet(){
         for(int i = 0; i<dice.size(); i++){
-            //System.out.println(dice[i]);
+            System.out.println(dice.get(i));
         }
     }
 
